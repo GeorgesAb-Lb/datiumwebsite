@@ -1,0 +1,372 @@
+{% extends 'layouts/base.html' %}
+{% block navigation %}
+  {% block title %}
+    <title>About us Page</title>
+  {% endblock %}
+  {% load static %}
+  <!-- Navbar -->
+</br>
+  <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+    <div class="container-fluid py-1 px-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+          {% block pagename %}
+          <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">{% block whatpage %}{% endblock%}</a></li>
+          {% endblock %}
+          <li class="text-sm text-dark active ms-2" aria-current="page">
+          </li>
+        </ol>
+      </nav>
+      <h2 style="color:#fb0283; margin:0px 225px">About us</h2>
+      <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar" style="margin:0px 750px">
+        <ul class="navbar-nav  justify-content-end" style="margin:0px -600px">
+  
+          <li class="nav-item d-xl-none ps-3 d-flex">
+            <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+              <div class="sidenav-toggler-inner">
+                <i class="sidenav-toggler-line"></i>
+                <i class="sidenav-toggler-line"></i>
+                <i class="sidenav-toggler-line"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item px-3 d-flex">
+            <a href="javascript:;" class="nav-link text-body p-0">
+              <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown pe-3 d-flex ">
+            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-bell cursor-pointer"></i>
+            </a>
+            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+              <li class="mb-2">
+                <a class="dropdown-item border-radius-md" href="javascript:;">
+                  <div class="d-flex py-1">
+                    <div class="my-auto">
+                      <img src="{% static 'img/team-2.jpg' %}" class="avatar avatar-sm  me-3 ">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                      <h6 class="text-sm font-weight-normal mb-1">
+                        <span class="font-weight-bold">Congratulations</span> on hitting 10k sales
+                      </h6>
+                      <p class="text-xs text-secondary mb-0 ">
+                        <i class="fa fa-clock me-1"></i>
+                        13 minutes ago
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="dropdown-item border-radius-md" href="javascript:;">
+                  <div class="d-flex py-1">
+                    <div class="my-auto">
+                      <img src="https://i.postimg.cc/mtJwKL0T/Screenshot-96.png" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                      <h6 class="text-sm font-weight-normal mb-1">
+                        <span class="font-weight-bold">Datium</span> is studying the 
+                      </br>Right Marketing Stratergy
+                      </h6>
+                      <p class="text-xs text-secondary mb-0 ">
+                        <i class="fa fa-clock me-1"></i>
+                        1 day
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item border-radius-md" href="javascript:;">
+                  <div class="d-flex py-1">
+                    <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
+                      <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>credit-card</title>
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g transform="translate(1716.000000, 291.000000)">
+                              <g transform="translate(453.000000, 454.000000)">
+                                <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
+                                <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                      <h6 class="text-sm font-weight-normal mb-1">
+                        Payment successfully completed
+                      </h6>
+                      <p class="text-xs text-secondary mb-0 ">
+                        <i class="fa fa-clock me-1"></i>
+                        2 days
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item pe-2 d-flex ">
+            <label for="theme-switch" class="nav-link text-body p-0 m-0">
+              <i class="fa fa-sun fixed-plugin-button-nav cursor-pointer" id="theme-indicator"></i>
+            </label>
+            <input type="checkbox" class="d-none" id="theme-switch"/>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+{% endblock navigation %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid py-4">
+  <div class="row mt-4" style="width:1580px;">
+    <div class="col-lg-7 mb-lg-0 mb-4">
+      <div class="card">
+        <div class="card-body p-3">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="d-flex flex-column h-100">
+                <h5 class="font-weight-bolder">Datium</h5>
+                <p class="font-weight-bolder">Bringing & Leading Your Data Into Success.</p>
+                
+                <p>Welcome to Datium, your trusted partner in navigating the digital landscape and achieving unparalleled success. At Datium, we are dedicated to empowering businesses with comprehensive digital solutions tailored to their unique needs.</p>
+                
+                <div class="list-group">
+                  <button type="button" class="list-group-item list-group-item-action active">1. Digital Expertise: With expertise in marketing campaigns, digital marketing, web development, and full stack engineering, we offer a complete suite of services to elevate your online presence and drive growth</button>
+                  <button type="button" class="list-group-item list-group-item-action active">2. Innovative Solutions: Our team specializes in growth hacking and quality assurance, ensuring that your business stays ahead of the curve and delivers exceptional results </button>
+                  <button type="button" class="list-group-item list-group-item-action active">3. Strategic Insights: Through meticulous market studies, product studies, and competitor analyses, we provide valuable insights to help businesses make informed decisions and achieve their financial goals</button>
+                  <button type="button" class="list-group-item list-group-item-action active">4. Commitment to Excellence: At Datium, we are committed to excellence in everything we do. Whether it's crafting compelling marketing strategies or optimizing digital assets, we go above and beyond to deliver results that exceed expectations.</button>
+                </div>
+              </br>
+                <h1 style="font-size:40px;margin:50px 142.5px;color:#CB0C9F; width:450px; margin: -10px 22.5px; font-size:25px">Partner with Datium today and
+                </br>embark on a transformative 
+                </br>
+                journey towards digital success.</h1>
+                <a class=" text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="{% url 'services' %}" style="color:#9420BB;margin:0px 170px">
+                  Services
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true" style="color:#9420BB"></i>
+                </a>
+              </div>
+            </br>
+            </div>
+            <div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
+              <div class="bg-gradient-primary border-radius-lg h-100">
+                <img src="{% static 'img/shapes/waves-white.svg' %}" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves">
+                <div class="position-relative d-flex align-items-center justify-content-center h-100">
+                  <img class="w-100 position-relative z-index-2 pt-4" src="{% static 'img/illustrations/rocket-white.png' %}" alt="rocket">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" style="background-color: transparent; width: 200px; height: 200px; perspective: 10000px; margin: 0 auto;">
+  <div class="flip-card-inner" style=" margin: 0px;transition: transform 0.6s; transform-style: preserve-3d;" onmouseover="flipCard()">
+    <div class="flip-card-front" style="margin: 0px -550px;border-radius:20px;width: 650px;height:230px; position: absolute;  background-color: #CB0C9F; color: black; backface-visibility: hidden; transform: rotateY(0deg);">
+      <h3 style="text-align:center; color:white">Datium</h3>
+
+      <p style="color:white; padding-right:10px; padding-left:10px">A leading marketing, digitalization, and tech company, has partnered with industry giants such as Apple, Microsoft, IBM, Meta, and numerous others, leveraging its expertise to propel businesses to new heights. Through innovative strategies and cutting-edge technologies, Datium has facilitated the growth and success of a diverse range of clients, including established enterprises, budding startups, and ambitious businesses.</p>
+    </div>
+    <div class="flip-card-back" style="margin:0px 100px;border-radius:20px;width: 650px; height: 150px;position: absolute;background-color: #971EB9; color: white; backface-visibility: hidden; transform: rotateY(180deg);">
+      <h3 style="text-align:center; color:white">Datium</h3>
+      <p style="color:white; padding-right:10px; padding-left:10px">By offering tailored solutions aimed at enhancing professionalism, optimizing performance, and driving automation, Datium remains committed to empowering organizations to achieve their goals and thrive in today's competitive landscape</p>
+    </div>
+  </div>
+</div>
+</br>
+</br>
+{% include "includes/footer.html" %}
+</br>
+{% endblock content %}
+
+{% block scripts %}
+  <script src="{% static 'js/plugins/chartjs.min.js' %}"></script>
+  <script>
+    function flipCard() {
+      var cardInner = document.querySelector('.flip-card-inner');
+      if (cardInner.style.transform === 'rotateY(180deg)') {
+        cardInner.style.transform = 'rotateY(0deg)';
+      } else {
+        cardInner.style.transform = 'rotateY(180deg)';
+      }
+    }
+    var ctx = document.getElementById("chart-bars").getContext("2d");
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        datasets: [{
+          label: "Sales",
+          tension: 0.4,
+          borderWidth: 0,
+          borderRadius: 4,
+          borderSkipped: false,
+          backgroundColor: "#fff",
+          data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
+          maxBarThickness: 6
+        }, ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+            },
+            ticks: {
+              suggestedMin: 0,
+              suggestedMax: 500,
+              beginAtZero: true,
+              padding: 15,
+              font: {
+                size: 14,
+                family: "Open Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+              color: "#fff"
+            },
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false
+            },
+            ticks: {
+              display: false
+            },
+          },
+        },
+      },
+    });
+
+
+    var ctx2 = document.getElementById("chart-line").getContext("2d");
+
+    var gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke1.addColorStop(1, 'rgba(203,12,159,0.2)');
+    gradientStroke1.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+    gradientStroke1.addColorStop(0, 'rgba(203,12,159,0)'); //purple colors
+
+    var gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke2.addColorStop(1, 'rgba(20,23,39,0.2)');
+    gradientStroke2.addColorStop(0.2, 'rgba(72,72,176,0.0)');
+    gradientStroke2.addColorStop(0, 'rgba(20,23,39,0)'); //purple colors
+
+    new Chart(ctx2, {
+      type: "line",
+      data: {
+        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        datasets: [{
+            label: "Mobile apps",
+            tension: 0.4,
+            borderWidth: 0,
+            pointRadius: 0,
+            borderColor: "#cb0c9f",
+            borderWidth: 3,
+            backgroundColor: gradientStroke1,
+            fill: true,
+            data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+            maxBarThickness: 6
+
+          },
+          {
+            label: "Websites",
+            tension: 0.4,
+            borderWidth: 0,
+            pointRadius: 0,
+            borderColor: "#575f9a",
+            borderWidth: 3,
+            backgroundColor: gradientStroke2,
+            fill: true,
+            data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+            maxBarThickness: 6
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            grid: {
+              drawBorder: false,
+              display: true,
+              drawOnChartArea: true,
+              drawTicks: false,
+              borderDash: [5, 5]
+            },
+            ticks: {
+              display: true,
+              padding: 10,
+              color: '#b2b9bf',
+              font: {
+                size: 11,
+                family: "Open Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+            }
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+              borderDash: [5, 5]
+            },
+            ticks: {
+              display: true,
+              color: '#b2b9bf',
+              padding: 20,
+              font: {
+                size: 11,
+                family: "Open Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+            }
+          },
+        },
+      },
+    });
+  </script>
+
+{% endblock scripts %}

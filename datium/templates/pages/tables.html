@@ -1,0 +1,600 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}
+<title>Services - What Datium Has To Offer?</title>
+{% endblock %}
+
+
+{% load static %}
+
+{% block content %}
+<div class="container-fluid py-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4">
+        <div class="card-header pb-0">
+          <h6>Tech Services</h6>
+        </div>
+        <div class="card-body px-0 pt-0 pb-2">
+          <div class="table-responsive p-0">
+            <table class="table align-items-center mb-0">
+              <thead>
+                <tr>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Service</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Starting Price</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">More infos</th>
+                  <th class="text-secondary opacity-7"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-2.jpg' %}" class="avatar avatar-sm me-3" alt="user1">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Full Stack Development & Engineering</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$399</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold" style="font-size:5px">Whether it's a website, 
+                    </br>a software or a mobile app,
+                    </br> our professional team can build everything 
+                  </br>in the best possible quality
+                  </br> to stand out in the market!</span>
+                  </td>
+                  <td class="align-middle">
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-3.jpg' %}" class="avatar avatar-sm me-3" alt="user2">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Data Science & Management</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$299</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Everything in the Data industry
+                    </br>with a professional team that offers 
+                  </br>services in any DataBase required.</span>
+                  </td>
+                  <td class="align-middle">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-4.jpg' %}" class="avatar avatar-sm me-3" alt="user3">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Graphic Designing</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$69</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Everything in the graphic designing industry
+                    </br>either if it's used for 
+                  </br>UI/UX, Logo, Flyers, Posts and many more.</span>
+                  </td>
+                  <td class="align-middle">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-3.jpg' %}" class="avatar avatar-sm me-3" alt="user4">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Growth Hacking</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$99</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Everything in the hacking industry
+                    </br> from growth hacking, 
+                  </br>cyber security & many more</span>
+                  </td>
+                  <td class="align-middle">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-2.jpg' %}" class="avatar avatar-sm me-3" alt="user5">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">AI, Machine Learning & Automation</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$399</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Everything in the Machine Learning industry
+                    </br> from chatbots to automated softwares
+                  </br> and many more.</span>
+                  </td>
+                  <td class="align-middle">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2 py-1">
+                      <div>
+                        <img src="{% static 'img/team-4.jpg' %}" class="avatar avatar-sm me-3" alt="user6">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Quality Assurance</h6>
+                        <p class="text-xs text-secondary mb-0"></p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                    <p class="text-xs text-secondary mb-0">$128</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Quality Assurance overall from back-end to front-end
+                    </br> to make sure everything is working perfectly, 
+                  </br>with the best UI/UX &
+                </br> as safe as possible from potential cyber attacks.</span>
+                  </td>
+                  <td class="align-middle">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid py-4" >
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-4">
+          <div class="card-header pb-0">
+            <h6>Tech Services</h6>
+          </div>
+          <div class="card-body px-0 pt-0 pb-2" >
+            <div class="table-responsive p-0" >
+              <table class="table align-items-center mb-0">
+                <thead>
+                  <tr>
+                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Service</th>
+                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Starting Price</th>
+                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">More infos</th>
+                    <th class="text-secondary opacity-7"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="d-flex px-2 py-1">
+                        <div>
+                          <img src="{% static 'img/team-2.jpg' %}" class="avatar avatar-sm me-3" alt="user1">
+                        </div>
+                        <div class="d-flex flex-column justify-content-center">
+                          <h6 class="mb-0 text-sm">Microservices (Architecture) </h6>
+                          <p class="text-xs text-secondary mb-0"></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                      <p class="text-xs text-secondary mb-0">$399</p>
+                    </td>
+                    <td class="align-middle text-center text-sm">
+                      <span class="badge badge-sm bg-gradient-success">Available</span>
+                    </td>
+                    <td class="align-middle text-center">
+                      <span class="text-secondary text-xs font-weight-bold" style="font-size:15px">Microservices (Architecture) & Many more.</span>
+                    </td>
+                    <td class="align-middle">
+  
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex px-2 py-1">
+                        <div>
+                          <img src="{% static 'img/team-3.jpg' %}" class="avatar avatar-sm me-3" alt="user2">
+                        </div>
+                        <div class="d-flex flex-column justify-content-center">
+                          <h6 class="mb-0 text-sm">Cloud Computing</h6>
+                          <p class="text-xs text-secondary mb-0"></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                      <p class="text-xs text-secondary mb-0">$399</p>
+                    </td>
+                    <td class="align-middle text-center text-sm">
+                      <span class="badge badge-sm bg-gradient-success">Available</span>
+                    </td>
+                    <td class="align-middle text-center">
+                      <span class="text-secondary text-xs font-weight-bold">Everything you can think of in the Cloud Industry</span>
+                    </td>
+                    <td class="align-middle">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex px-2 py-1">
+                        <div>
+                          <img src="{% static 'img/team-4.jpg' %}" class="avatar avatar-sm me-3" alt="user3">
+                        </div>
+                        <div class="d-flex flex-column justify-content-center">
+                          <h6 class="mb-0 text-sm">Video & Audio Editing / Montage</h6>
+                          <p class="text-xs text-secondary mb-0"></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="text-xs font-weight-bold mb-0">Starting from</p>
+                      <p class="text-xs text-secondary mb-0">$89</p>
+                    </td>
+                    <td class="align-middle text-center text-sm">
+                      <span class="badge badge-sm bg-gradient-success">Available</span>
+                    </td>
+                    <td class="align-middle text-center">
+                      <span class="text-secondary text-xs font-weight-bold">Video & Audio Editing Whether 
+                      </br>it's for social media account, 
+                    </br>for an ad, personal and many more.</span>
+                    </td>
+                    <td class="align-middle">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4">
+        <div class="card-header pb-0">
+          <h6>Marketing</h6>
+        </div>
+        <div class="card-body px-0 pt-0 pb-2">
+          <div class="table-responsive p-0">
+            <table class="table align-items-center justify-content-center mb-0">
+              <thead>
+                <tr>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Service</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Starting Price</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">More info</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/OIP.KheH7TyVVOlgb0S1HLZFdwAAAA?rs=1&pid=ImgDetMain" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Social Media Marketing</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$69</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">SMM on all the social medias you could think of</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/R.37039050eccd72cbd90abf731a875f23?rik=isFx4%2fEyTXQpbQ&pid=ImgRaw&r=0" class="avatar avatar-sm rounded-circle me-2" alt="invision">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Marketing Campaigns + Automation</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$99</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">Get the best results out of our 
+                      </br>Marketing Campaigns & Automation Services</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://mariannazanatta.com/wp-content/uploads/2022/04/SponsorshipVsInfluencerMarketing.png" class="avatar avatar-sm rounded-circle me-2" alt="jira">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Influencers & Sponsorships</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$199</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">Collab with the suitable influencers in your industry 
+                      </br>to stand out in the market & increase sales.</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/OIP.W96kEdvfdQtqzYsaNToiLwHaFM?rs=1&pid=ImgDetMain" class="avatar avatar-sm rounded-circle me-2" alt="slack">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Accounts, Products & Services Management</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$149</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">SM Account Management, 
+                      </br>Product Management & Service Management</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://www.marketing91.com/wp-content/uploads/2015/09/iStock_000026751121_Large-809x539-1024x683.jpg" class="avatar avatar-sm rounded-circle me-2" alt="webdev">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Industry & Competitors study & analysis</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$299</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">We will study your whole industry whether 
+                      </br>it's local or global and we will 
+                    </br>study your competitors to set up 
+                  </br>the right marketing and business plan 
+                </br>to stand out in the market</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/R.21c75249ce27d200565dc8e76c58d545?rik=8ByC3rCTjCn0Xw&pid=ImgRaw&r=0" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Business planning & Management</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$399</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">Set up the right business stratergy 
+                      </br>to stand out in the market 
+                    </br>and increase audience & sales</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/OIP.uNq9shHb-hVUWQ9roh9UyAHaHa?rs=1&pid=ImgDetMain" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">Email Marketing</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$59</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">Email Marketing done by pofessionals 
+                      </br>to achieve higher chance of sales 
+                    </br>and gain new customers</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/OIP.ylbhaOsSaYJ6To8bdslA8gHaE7?pid=ImgDet&w=60&h=60&c=7&dpr=1.5&rs=1" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">TeleSales</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$199</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">You will get to work with TeleSales Agents 
+                      </br>who have more than 
+                    </br>8 years of experience in the field 
+                    </br>and can close 25%-30% 
+                  </br>of cold calls successfully.</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex px-2">
+                      <div>
+                        <img src="https://th.bing.com/th/id/OIP.KzEP4t3mAee6iTBjk5JcEgHaHa?rs=1&pid=ImgDetMain" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                      </div>
+                      <div class="my-auto">
+                        <h6 class="mb-0 text-sm">SEO Optimization</h6>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-sm font-weight-bold mb-0">$349</p>
+                  </td>
+                  <td>
+                    <span class="text-xs font-weight-bold">Available</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="me-2 text-xs font-weight-bold">You will get to rank higher 
+                      </br>in all the search engines 
+                    </br>which will boost your company's value, 
+                  </br>lead to more sales of course & 
+                </br>new customers.</span>
+                    </div>
+                  </td>
+                  <td class="align-middle">
+                    <button class="btn btn-link text-secondary mb-0" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include "includes/footer.html" %}
+    
+  </div>
+  {% endblock content %}
